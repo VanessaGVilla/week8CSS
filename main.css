@@ -1,1 +1,19 @@
+#outer-container {
+    color: white;
+    column-gap: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 250px auto 250px; 
+}
 
+#header {
+    background-color: orange;
+}
+
+#main {
+    background-color: pink;
+}
+
+#footer {
+    background-color: blue;
+}
